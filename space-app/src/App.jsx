@@ -17,7 +17,6 @@ function App() {
     <FundoGradiente>
       <EstilosGlobais />
       <Cabecalho />
-      <CampoTexto />
     </FundoGradiente>
   )
 }

@@ -1,4 +1,5 @@
 import { styled } from 'styled-components';
+import CampoTexto from '../CampoTexto';
 
 const HeaderStyled = styled.header`
     padding: 60px 0;
@@ -14,6 +15,7 @@ const Cabecalho = () => {
         return(<>
             <HeaderStyled>
                 <img src='/imagens/logo.png' alt='logo' />
+                <CampoTexto />
             </HeaderStyled>
         </>)
 }
