@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const ListItemStyled = styled.li`
-    font-size: 24px;
+    font-size: 22px;
     line-height: 29px;
     margin-bottom: 30px;
     cursor: pointer;
@@ -11,6 +11,10 @@ const ListItemStyled = styled.li`
     display: flex;
     align-items: center;
     gap: 22px;
+    transition: font-size 0.4s ease;
+    &:hover {
+      font-size: 24px;
+    }
 `
 
 const ItemNavegacao = ({children, iconeAtivo, iconeInativo, ativo = false}) => {
